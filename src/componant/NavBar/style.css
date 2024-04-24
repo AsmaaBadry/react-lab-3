@@ -1,0 +1,44 @@
+.navbar-brand{
+    background: linear-gradient(to right, #c22292, rgb(31, 31, 207));
+  
+  /* Apply the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Set text color to transparent */
+  color: transparent;
+  
+  font-size: 25px !important;
+    
+}
+.navbar-brand:hover{
+    background: linear-gradient(to right,rgb(31, 31, 207), rgb(194, 34, 146) );
+  
+    /* Apply the gradient to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Set text color to transparent */
+    color: transparent;
+}
+.bg-body-tertiary{
+    background-color: #070722 !important;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-expand-lg .navbar-collapse{
+    padding-left: 3rem !important;
+    
+}
+
+
+
+.nav-a{
+    color: white;
+    text-decoration:none;
+    padding-left: 3rem !important;
+}
+.nav-a:hover{
+    color: #e432ae ;
+}
